@@ -1,12 +1,9 @@
 ---
 tasks:
-- id: 1
-  title: Make cookies
-  description: Chocolate chip cookies are so delicious.  I am hungry.
 - id: 2
   title: Play golf
-  description: Better get it in before Turing begins.
+  description: "   play some golf ..."
 - id: 3
   title: Study
   description: Complete all pre work assignments
-total: 3
+total: 4

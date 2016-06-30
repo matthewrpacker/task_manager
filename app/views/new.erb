@@ -1,6 +1,9 @@
-<form action="/tasks" method="post">
-  <p>Enter a new task:</p>
-  <input type='text' name='task[title]'/><br/>
-  <textarea name='task[description]'></textarea><br/>
-  <input type='submit'/>
+<form method="post" action="/tasks">
+  <header>
+    <a class="back btn btn-info" href="/tasks">Cancel</a>
+    <button class="btn btn-info" type="submit">Save</button>
+    <h2>New Task</h2>
+  </header>
+  <p><input class="form-control" type="text" name="task[title]" placeholder="Title"></p>
+  <p><textarea class="form-control" name="task[description]" placeholder="Description"></textarea></p>
 </form>
