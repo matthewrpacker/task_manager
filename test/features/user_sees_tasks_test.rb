@@ -8,7 +8,7 @@ class UserSeesTasksTest < FeatureTest
       description: "I know it's cool"
       })
 
-    task1 = task_manager.create({
+    task2 = task_manager.create({
         title: "Learn capybara",
         description: "Swim in hottub"
         })
